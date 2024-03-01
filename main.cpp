@@ -16,7 +16,7 @@ template <typename TreeType>
 void insertData(TreeType &tree, const string &setName, const string &fileName)
 {
     // Construct the file path
-    string filePath = "../data/data/insert/" + setName + "/" + fileName + ".txt";
+    string filePath = "data/data/insert/" + setName + "/" + fileName + ".txt";
 
     // Open the data file for reading
     ifstream dataFile(filePath);
@@ -77,7 +77,7 @@ template <typename TreeType>
 void searchData(TreeType &tree, const string &setName, const string &fileName)
 {
     // Construct the file path
-    string filePath = "../data/data/search/" + setName + "/" + fileName + ".txt";
+    string filePath = "data/data/search/" + setName + "/" + fileName + ".txt";
 
     // Open the data file for reading
     ifstream dataFile(filePath);
@@ -138,7 +138,7 @@ template <typename TreeType>
 void deleteData(TreeType &tree, const string &setName, const string &fileName)
 {
     // Construct the file path
-    string filePath = "../data/data/delete/" + setName + "/" + fileName + ".txt";
+    string filePath = "data/data/delete/" + setName + "/" + fileName + ".txt";
 
     // Open the data file for reading
     ifstream dataFile(filePath);
